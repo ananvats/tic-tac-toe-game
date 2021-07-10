@@ -10,48 +10,49 @@ body {
     display: flex;
     font-family: 'Chakra Petch', sans-serif;
     justify-content: center;
-    background-color:#26474E ;
+    background-color: #0f1a26;
+ 
 }
 
 .board {
-    background-color:#fdc25b ;
+    background-color:#d63d41;
     margin: 5rem auto;
     border-radius: .3rem;
 
-}
-
+} 
 h1 {
     text-align: center;
    font-size: 50px;
    font-weight: 900;
-   color: #26474E;
+   color:  #0f1a26;
+
   
-}
+} 
 
 .turn {
     text-align: center;
     font-size: 30px;
     font-weight:bolder;
-    color: #26474E;
+    color:  #0f1a26;
     
 
 }
 
 
 .grid{
-    background-color:#fdc25b;
+    background-color:#d63d41;
     display: grid;
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 100px 100px 100px;
     grid-gap: 5px;
-    margin:  2rem;
+    margin: 2rem;
 
 }
 
 .grid-box{
     height:100px;
     width: 100px;
-    background-color:#26474E;
+    background-color: #0f1a26;
 }
 
 .reset{
@@ -61,14 +62,11 @@ h1 {
 }
 
 #resetBtn {
-    background-color: #26474E;
-    color: #fdc25b;
+    background-color:#0f1a26;
+    color: #d63d41;
     padding: .4rem;
     border-radius: .2rem;
     font-weight: bold;
     cursor: pointer;
 }
 
-#resetBtn:hover{
-    background-color:#FF5148;
-}
