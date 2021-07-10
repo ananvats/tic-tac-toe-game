@@ -15,7 +15,7 @@ body {
 }
 
 .board {
-    background-color:#ffb347;
+    background-color:#ff964f;
     margin: 5rem auto;
     border-radius: .3rem;
 
@@ -40,7 +40,7 @@ h1 {
 
 
 .grid{
-    background-color:#ffb347;
+    background-color:#ff964f;
     display: grid;
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 100px 100px 100px;
@@ -63,7 +63,7 @@ h1 {
 
 #resetBtn {
     background-color:#0f1a26;
-    color: #ffb347;
+    color: #ff964f;
     padding: .4rem;
     border-radius: .2rem;
     font-weight: bold;
